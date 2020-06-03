@@ -1,7 +1,7 @@
-#Assignment - custom
-#Q1 - Module for prime factorization
-#Michael Xu
-#February 28 2020
+# Assignment - custom
+# Q1 - Module for prime factorization
+# Michael Xu
+# February 28 2020
 
 def next_prime(current_prime):
     '''returns the next prime number after the given argument
@@ -23,6 +23,7 @@ def next_prime(current_prime):
             return i
         else:
             i += 1
+
 
 def num_times_divisible(user_num_, prime_):
     '''returns the number of times that a number is divisble by another number

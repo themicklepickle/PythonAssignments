@@ -1,4 +1,4 @@
-#Percent converter
+# Percent converter
 response = "y"
 
 while response == "y" or response == "Y":

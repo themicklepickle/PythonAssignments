@@ -1,4 +1,4 @@
-#Original Text (from the song, "You're Welcome")
+# Original Text (from the song, "You're Welcome")
 """
 What can I say except you're welcome
 For the tides, the sun, the sky
@@ -23,7 +23,6 @@ verb2 = input("Enter a verb in present continuous tense: ")
 bodyPart = input("Enter a body part in plural form: ")
 interjection = input("Enter an interjection with the first letter capitalized: ")
 
-
 print("\nWhat can I say except you're welcome\n",
       "For the ", object1, ", the ", object2, ", the ", object3, "\n",
       interjection, ", it's okay, it's okay\n",
@@ -32,4 +31,4 @@ print("\nWhat can I say except you're welcome\n",
       interjection, "!", "\n",
       "What has ", number, " ", bodyPart, " that ", verb1, " up the sky\n",
       "When you were ", verb2, " yay high\n",
-      "This ", animal, "!", sep = "")
+      "This ", animal, "!", sep="")

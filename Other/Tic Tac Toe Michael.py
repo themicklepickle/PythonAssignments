@@ -1,16 +1,20 @@
-#General setup
+# General setup
 import turtle
+
 turtle.setup(width=500, height=500, startx=380, starty=100)
 turtle.title("Tic Tac Toe")
 
 from turtle import *
+
 grid = Turtle()
 grid.shape("blank")
 grid.pensize(4)
 
-#Functions
+
+# Functions
 def f():
     print("enter")
+
 
 def xProgram(turtleName, pos):
     entered = False
@@ -27,9 +31,10 @@ def xProgram(turtleName, pos):
     turtleName.pendown()
     turtleName.setpos(-pos, -pos)
     while entered == False:
-        turtle.onkeypress(f,"a")
+        turtle.onkeypress(f, "a")
 
-#Grid
+
+# Grid
 grid.speed(0)
 grid.up()
 grid.setpos(-250, 85)
@@ -48,5 +53,5 @@ grid.setpos(83, 250)
 grid.pendown()
 grid.setpos(83, -250)
 
-#X1
+# X1
 xProgram("X1", 50)

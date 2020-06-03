@@ -25,6 +25,8 @@ def Q2():
     c = int(input("Please enter the number of columns: "))
     matrix = [[" " for col in range(c)] for row in range(r)]
     print(matrix)
+
+
 # uncomment line below to run code snippet:
 # Q2()
 
@@ -33,6 +35,8 @@ def Q2():
 # e.g. [[1, 2], [3, 4]] → [1, 2, 3, 4]
 def flatten(x):
     return [col for row in x for col in row]
+
+
 # uncomment lines below to run code snippet:
 # x = [[1, 2], [3, 4]]
 # print(flatten(x))

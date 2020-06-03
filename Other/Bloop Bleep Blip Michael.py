@@ -9,5 +9,3 @@ elif remainder3 < 1:
     print("bleep")
 elif remainder2 < 1:
     print("blip")
-
-

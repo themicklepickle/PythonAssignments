@@ -1,6 +1,6 @@
-#Assignment - Introduction to Functions
-#Q8-Program that determines if a given number is perfect.
-#Michael Xu
+# Assignment - Introduction to Functions
+# Q8-Program that determines if a given number is perfect.
+# Michael Xu
 
 ######### FUNCTIONS #########
 def factors(number_):
@@ -10,11 +10,13 @@ def factors(number_):
             factors_list.append(i)
     return factors_list
 
+
 def total(factors_list_):
     sum_total = 0
     for n in factors_list_:
         sum_total += n
     return sum_total
+
 
 ######## MAIN PROGRAM ########
 number = int(input("Please enter a positive integer: "))

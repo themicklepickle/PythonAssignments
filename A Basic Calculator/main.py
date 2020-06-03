@@ -16,7 +16,7 @@ def operation(sign, function):
     num2 = sanitization.integer("Please enter the [second number]: ", 1, None)
     result = function(num1, num2)
     print(f"{num1} {sign} {num2} = {result}")
-    print(num1//num2)
+    print(num1 // num2)
 
 
 def gcd():

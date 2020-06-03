@@ -1,4 +1,4 @@
-condition = 
+condition =
 
 if condition:
     print("TRUE")

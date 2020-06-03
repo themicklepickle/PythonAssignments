@@ -1,7 +1,7 @@
-#Assignment - More Functions
-#Q10 - Function that converts percent grades to letter grades
-#Michael Xu
-#February 20, 2020
+# Assignment - More Functions
+# Q10 - Function that converts percent grades to letter grades
+# Michael Xu
+# February 20, 2020
 
 def grade_converter(percent):
     ''' Returns a letter grade (A,B,C,D,F) given a percentage

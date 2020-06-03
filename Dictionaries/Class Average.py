@@ -3,5 +3,5 @@
 # Michael Xu
 # May 15, 2020
 
-average = sum(grades.values())/len(grades.values())
+average = sum(grades.values()) / len(grades.values())
 print(average)

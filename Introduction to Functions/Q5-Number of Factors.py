@@ -1,7 +1,7 @@
-#Assignment - Introduction to Functions
-#Q5-Program that asks the user for a number and outputs the number of factors that
+# Assignment - Introduction to Functions
+# Q5-Program that asks the user for a number and outputs the number of factors that
 #   number has.
-#Michael Xu
+# Michael Xu
 
 ######### FUNCTIONS #########
 def number_of_factors(number_):
@@ -10,6 +10,7 @@ def number_of_factors(number_):
         if number_ % i == 0:
             factors += 1
     return factors
+
 
 ######## MAIN PROGRAM ########
 number = int(input("Please enter a positive integer: "))

@@ -1,23 +1,22 @@
 import turtle
-from turtle import *
+
 turtle.shape("arrow")
 turtle.lt(90)
 
-#original assignment
+# original assignment
 length = 100
 
 for x in range(3):
 
     turtle.setpos(0, 0)
     turtle.lt(x * 30)
-    
+
     for y in range(3):
         turtle.fd(length)
         turtle.rt(90)
 
     turtle.fd(length)
     turtle.rt(90 + x * 30)
-
 
 '''
 #small and big squares with color fill

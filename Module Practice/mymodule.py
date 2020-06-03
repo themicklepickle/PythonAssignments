@@ -14,6 +14,7 @@ def num_factors(number_):
             factors += 1
     return factors
 
+
 def is_prime(number_):
     '''Returns a True boolean if the number is prime, otherwise returns a False boolean
 

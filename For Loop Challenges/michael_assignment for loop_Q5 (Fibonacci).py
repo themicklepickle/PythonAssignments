@@ -8,4 +8,4 @@ for x in range(1, number):
     number2 += number1
     number1 = oldNumber2
 
-print("The ", number, "th Fibonacci number is ", number2, sep = "")
+print("The ", number, "th Fibonacci number is ", number2, sep="")

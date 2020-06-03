@@ -1,7 +1,7 @@
-#Assignment - Introduction to Functions
-#Q6-Program that asks the user for a number and deides whether that number is prime or
+# Assignment - Introduction to Functions
+# Q6-Program that asks the user for a number and deides whether that number is prime or
 #   not.
-#Michael Xu
+# Michael Xu
 
 ######### FUNCTIONS #########
 def prime(number_):
@@ -13,6 +13,7 @@ def prime(number_):
         return True
     else:
         return False
+
 
 ######## MAIN PROGRAM ########
 number = int(input("Please enter a positive integer: "))

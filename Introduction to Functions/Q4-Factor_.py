@@ -1,7 +1,7 @@
-#Assignment - Introduction to Functions
-#Q4-Program that asks the user for a pair of numbers and decides whether the first is
+# Assignment - Introduction to Functions
+# Q4-Program that asks the user for a pair of numbers and decides whether the first is
 #   a factor of the second.
-#Michael Xu
+# Michael Xu
 
 ######### FUNCTIONS #########
 def factor(factor_, number_):
@@ -9,6 +9,7 @@ def factor(factor_, number_):
         return True
     else:
         return False
+
 
 ######## MAIN PROGRAM ########
 first_num = int(input("Please enter the first integer: "))

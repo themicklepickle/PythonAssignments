@@ -1,4 +1,4 @@
-#asks user for a grade and repeats it back to them
+# asks user for a grade and repeats it back to them
 
 grade = int(input("Please enter the grade (0 - 100): "))
 
